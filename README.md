@@ -1,14 +1,17 @@
 # proyecto-final
+
 from lifestore_file import lifestore_products
 from lifestore_file import lifestore_sales
 from lifestore_file import lifestore_searches
 
 #INGRESAR UN USUARIO, PASSWORD
+
 registro_usuarios = []
 registro_password= []
 desea_registrar = input("¿Desea crear una cuenta? (Ya tengo una cuenta/Registrarme: ")
 
 #Con este while se agrega el nuevo usuario y password a la lista
+
 while desea_registrar == "Registrarme":
   nuevo_usuario = input("Ingresa un nombre de usuario: ")
   registro_usuarios.append(nuevo_usuario)
@@ -18,6 +21,7 @@ while desea_registrar == "Registrarme":
 print(registro_usuarios, registro_password)
 
 #Con este while no es necesario registrarse
+
 while desea_registrar in "Ya tengo una cuenta": 
   usuario_existente = input("Ingresa el usuario: ")
   contraseña_existente = input("Ingresa la contraseña: ")
