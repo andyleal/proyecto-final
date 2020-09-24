@@ -1,4 +1,4 @@
-# proyecto-final
+# proyecto-01-Leal-Andrea
 
 from lifestore_file import lifestore_products
 from lifestore_file import lifestore_sales
